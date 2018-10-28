@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>青狮网</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/YleoStyle.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script  src ="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+</head>
+<body >
+<div class="container-fluid align-middle" style="background-color:lightgreen">
+	<!-- <div class="sidebar" style="">
+		<ul class="" style="">
+			<li style="">Yleon team presented.</li>
+			<li style="">Home of young artists and designers.</li>
+			<li style="">Best of works</li>
+		</ul>
+	</div> -->
+	<div class ="align-items-start">
+	
+	<div class="col-12" style="background-color: lightyellow">
+		<header class="col-12 nav" style="background-color: lightpink">
+		<!-- 导航栏以上部分 -->
+			<div class="col-2" id="Logo" style="background-color:lightgray"><!-- logo图标 -->
+				<img src="img/" alt="logo_yleo"/>
+			</div>
+			<div class=" col-8" style="background-color: lightcyan"><!-- 导航 -->
+			<ul class="col-11 middle nav nav-justified " >
+				<li class="nav-item"><a  class="nav-link active" href="">首页</a></li>
+				<li class="nav-item"><a class="nav-link" href="">展览</a></li>
+				<li class="nav-item"><a class="nav-link" href="">商店</a></li>
+				<li class="nav-item"><a class="nav-link" href="">版权申请</a></li>
+				<li class="nav-item"><a class="nav-link" href="">关于我们</a></li>
+				<button type="button" class="btn btn-outline-secondary btn-lg" id="Login">登陆/注册</button>
+			</ul>
+		</div>
+		</header>
+		<content class="col-12" style="background-color:darkred;"><!-- 内容 -->
+			<div class="col-10 middle" style="background-color:pink;"><button class="col- btn btn-outline-secondary  float-right" type="button"><!-- <img src="" alt="购物车"> --></button></div>
+			<div class="col-10 middle jumbotron" style="background-color:darkgreen;display: flex;">
+			<div class="col-5 middle">
+				<div class="col-12 row " style="background-color: yellow"><img class="img-fluid middle" src="" alt="0"></div>
+				<div class="col-12 row " style="background-color: blue"><img class="img-thumb col-4 middle" src="" alt="1"><img class="img-thumb col-4 middle" src="" alt="2"><img class="img-thumb col-4 middle" src="" alt="3"></div>
+				<div class="col-3 middle"><button type="button" class="btn" id="like"></button></div>
+			</div>
+			<div class="middle " style="width:1px;height:20em;background-color:gray;"></div>
+			<div class="col-5 middle ">
+				<div class="">
+					<div class="col-12"><span style="font-size: 2em;margin-right:20px;">炼之一明信片</span><span class="" style="font-size: 0.3em;margin:30px;width: 80px;background-color: cyan;border:2px solid cyan;border-radius:10%;display: inline-block;">Yleo出品</span></div>
+					<div class="col-12">¥20</div>
+					<div class="col-12"><span>江苏</span><span>无锡</span></div>
+					<div class="col-12">
+						<span><button></button></span>
+						<span><button></button></span>
+						<span><button></button></span>
+					</div>
+				</div>
+				<hr class="col-12">
+				<form class="form">
+					<div class="col-12">
+						<span>分类</span>
+						<span><img class="img-thumb" src="" alt="1"><img class="img-thumb" src="" alt="1"><img class="img-thumb" src="" alt="1"></span>
+					</div>
+					<div class="col-12">
+						<span>数量</span>
+						<span class="button"> <button>-</button> <output>n</output> <button>+</button></span>
+						<span>库存<span>50</span>/<span>50</span></span>
+					</div>
+					<div class="col-12"><span><button class="col- btn btn-outline-secondary btn-lg" type="button">立即购买</button><button class="col- btn btn-outline-secondary btn-lg">加入购物车</button></span>
+					</div>
+				</form>
+				<footer><a href="" class="float-right">商品已加入版权保护<img src="" alt="》"></a></footer>
+			</div>
+		</div>	
+
+		<div class="col-10 middle" style="background-color:darkgreen;display: flex;">
+			<div class="col-7" style="background-color:pink">
+			<div class="row middle jumbotron" style="background-color:darkred">
+				<div class="col-12  row " style="background-color:lightblue">
+					<div class="col-3" style="background-color:darkgreen;"><img src="" alt=" 头像" class="rounded-circle"></div>
+					<div class="col-">
+						<div class="col-12">
+							<span>刘亮亮</span>
+							<span class="" style="font-size: 0.3em;margin:30px;width: 80px;background-color: cyan;border:2px solid cyan;border-radius:10%;display: inline-block;">Yleo认证</span>
+						</div>
+						<div class="col-12">
+							<span>艺术家</span>,<span>陶瓷工作者</span>
+						</div>
+						<div class="col-12">
+							<button class="col- btn btn-outline-secondary btn-lg" type="button">关注作者</button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<p class="col-12"><span>刘亮亮</span>的其他作品</p>
+					<div class="col-12 card-deck">
+					<div class="card" style="margin-left: 0;margin-right: 8px;">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">《相依》</p>
+					</div>
+					<div class="card-footer">
+							<span class="float-right"><button ></button>100</span><span class="float-right"><button></button>100</span>
+					</div>
+				</div>
+				<div class="card" style="margin-left: 0;margin-right: 8px;">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">《相依》</p>
+					</div>
+					<div class="card-footer">
+							<span class="float-right"><button></button>100</span><span class="float-right"><button></button>100</span>
+					</div>
+				</div>
+				<div class="card" style="margin-left: 0;margin-right: 8px;">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">《相依》</p>
+					</div>
+					<div class="card-footer">
+							<span  class="float-right"><button></button>100</span><span class="float-right"><button></button>100</span>
+					</div>
+				</div>
+				<div class="card" style="margin-left: 0;margin-right: 8px;">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">《相依》</p>
+					</div>
+					<div class="card-footer">
+							<span class="float-right"><button></button>100</span><span class="float-right"><button></button>100</span>
+					</div>	
+				</div>
+			</div>
+					<p class="col-12">
+						<a class="float-right" href="">更多<img src="" alt=">"></a>
+					</p>
+				</div>
+				</div>
+			<div class="row middle jumbotron" style="background-color:darkblue">
+				<div class="col-12">
+					<span>青狮推荐</span>
+					<span><img src="" alt="气泡"></span>
+				</div>
+					<div class="col-12 card-deck">
+					<div class="card" style="margin-left: 5px !important">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">逗号.明信片</p>
+						<p class="car-text float-right">¥20</p>
+					</div>
+					<div class="card-footer">
+							<span>江苏</span><span>无锡</span><span class="float-right"><button></button></span><span class="float-right"><button></button></span>
+					</div>
+				</div>
+				<div class="card" style="margin-left: 5px !important">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">逗号.明信片</p>
+						<p class="car-text float-right">¥20</p>
+					</div>
+					<div class="card-footer">
+							<span>江苏</span><span>无锡</span><span class="float-right"><button></button></span><span class="float-right"><button></button></span>
+					</div>
+				</div>
+				<div class="card" style="margin-left: 5px !important">
+					<img class="card-img-top" src="" alt="card img">
+					<div class="card-body">
+						<p class="card-text">逗号.明信片</p>
+						<p class="car-text float-right">¥20</p>
+					</div>
+					<div class="card-footer">
+							<span>江苏</span><span>无锡</span><span class="float-right"><button></button></span><span class="float-right"><button></button></span>
+					</div>
+				</div>
+					</div>
+					<p class="col-12">
+						<a class="float-right" href="">更多<img src="" alt=">"></a>
+					</p>
+				</div>
+			</div>
+		<div class="col-5 jumbotron" style="background-color:gray;left: 10px;">
+			<div class="row">
+			<div class="col-12">
+				<p>分享至</p>
+				<div class="col-12"><a href=""><img src="" alt="weibo"></a><a href=""><img src="" alt="weixin"></a><a href=""><img src="" alt="qq"></a></div>
+			</div>
+			<hr class="row col-12">
+			<div class="row">
+				<div class="col-4">评论<img src="" alt="">(10)</div>
+				<div class="col-12">
+					<div class="row">
+						<div class="col-2" style="background-color: red"><img src="" class="img-rounded" style="width: 200px;height: 200px;border-radius: 50%;" alt="头像"></div>
+						<div class="col-10"style="background-color: yellow">
+							<div class="col-8"><span>Dream worker</span><span>(2小时前)</span></div>
+							<div class="col-12">COOOOOOOOOOL-XDD,拿去送人了~</div>
+						</div>
+						<!-- <div class="">当前最火<img src="" alt=""></div> -->
+					</div>
+					<div class="row float-right" style="background-color: green"><button></button>25<button></button>100</div>
+				</div>
+				<div class="col-12">
+					<div class="row">
+						<div class="col-2" style="background-color: red"><img src="" class="img-rounded" alt="头像"></div>
+						<div class="col-10"style="background-color: yellow">
+							<div class="col-8"><span>Dream worker</span><span>(2小时前)</span></div>
+							<div class="col-12">COOOOOOOOOOL-XDD,拿去送人了~</div>
+						</div>
+					</div>
+					<div class="row float-right" style="background-color: green"><button></button>25<button></button>100</div>
+				</div>
+				<div class="col-12">
+					<div class="row">
+						<div class="col-2" style="background-color: red"><img src="" class="img-rounded" alt="头像"></div>
+						<div class="col-10"style="background-color: yellow">
+							<div class="col-8"><span>Dream worker</span><span>(2小时前)</span></div>
+							<div class="col-12">COOOOOOOOOOL-XDD,拿去送人了~</div>
+						</div>
+					</div>
+					<div class="row float-right" style="background-color: green"><button></button>25<button></button>100</div>
+				</div>
+				<div class="col-12">
+					<div class="row">
+						<div class="col-2" style="background-color: red"><img src="" class="img-rounded" alt="头像"></div>
+						<div class="col-10"style="background-color: yellow">
+							<div class="col-8"><span>Dream worker</span><span>(2小时前)</span></div>
+							<div class="col-12">COOOOOOOOOOL-XDD,拿去送人了~</div>
+						</div>
+					</div>
+					<div class="row float-right" style="background-color: green"><button></button>25<button></button>100</div>
+				</div>
+			</div>
+			<div class="col-12 middle">
+				<p class="">
+				<a class="middle" href="">点击展开全部评论<img src="" alt="\/"></a>
+			</p>
+			</div>
+		</div>
+	</div>
+			</div>		
+		</content>
+	</div>
+	<footer class="col-12" style="background-color:darkgreen">
+	</footer>
+</div>
+</div>
+<script type="text/javascript" src="js/scrollpost.js"></script>
+</body>
