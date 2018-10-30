@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
 <title>青狮网</title>
 <meta charset="UTF-8">
@@ -9,218 +10,249 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script  src ="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 </head>
-<body c>
-<div class="container-fluid align-middle" style="background-color:lightgreen">
-	<div class="sidebar" style=""><!-- 侧边 -->
-		<ul class="" style="">
-			<li style="">Yleon team presented.</li>
-			<li style="">Home of young artists and designers.</li>
-			<li style="">Best of works</li>
-		</ul>
-	</div>
-	<div class =" align-items-start">
-	
-	<div class="col-12" style="background-color: lightyellow">
-		<header class=" justify-content-center text-center" style="background-color: lightpink"><!-- 横幅 -->
-		<div class="col-12 banner" style="background-color:lightblue"><!-- 导航栏以上部分 -->
-			<div class="col-12 center-block" id="Logo" style="background-color:lightgray"><!-- logo图标 -->
-				<img src="img/" alt="logo_yleo"/>
+
+<body>
+	<div class="container-fluid align-middle align-items-start" style="background-color: white">
+		<!-- 网页头部（白底展示区） -->
+		<header class="justify-content-center text-center " style="background-color:white">
+			
+			<!-- logo及标语 -->
+			<div class="col-12">
+				<div style="height:3.5rem"></div>
+				<!-- logo图标 -->
+				<div class="logo"><img src="img/logo.png" alt="logo_yleo"/></div>
+				<div style="height:2rem"></div>
+				<!-- 标语 -->
+				<div>
+					<p class="fonttype1">年轻人的线上艺术生活馆</p>
+					<p class="fonttype2">Young artists&designers around you.</p>
+			    </div>
+			    <div style="height:2rem"></div>
 			</div>
-			<div class="col-12 middle" style="background-color: darkgray">
-			<p>年轻人的线上艺术生活馆</p><!-- 标语 -->
-			<p>Young artists&designers around you</p>
-		</div>
-		</div>
-		<div class=" col-12 align-items-center" style="background-color: lightcyan"><!-- 导航 -->
-			<ul class="col-7 middle nav nav-justified justify-content-center" >
-				<li class="nav-item"><a  class="nav-link active" href="">首页</a></li>
-				<li class="nav-item"><a class="nav-link" href="">展览</a></li>
-				<li class="nav-item"><a class="nav-link" href="">商店</a></li>
-				<li class="nav-item"><a class="nav-link" href="">版权申请</a></li>
-				<li class="nav-item"><a class="nav-link" href="">关于我们</a></li>
-				<button type="button" class="btn btn-outline-secondary btn-lg" id="Login">登陆/注册</button>
-				
-			</ul>
-		</div>
-		<div class="col-12"><!-- 宣传语 -->
-			<p>coming soon</p>
-			<img src="" alt="雪花">
-			<p>仓谷画社作品联展</p>
-			<p>the creation of Cang Gu Painting Society</p>
-		</div>
-		<div class="col-12">
-			<h2>2018.10.1-2018.10.7</h2> 
-			<p>
-				每天9：30AM-5:00PM<br/>江南大学设计学院<br/>1F 展览馆
-			</p>
-		</div>
-		<div class="col-8 carousel slide middle" data-ride="carousel"><!-- 轮播区 -->
-			<!-- 计数器 -->
-			<ol class="carousel-indicators">
-				<li data-target="#Carousel" data-slide-to="0" class="active"></li>
-				<li data-taret="#Carousel" data-slide-to="1">
-				</li>
-				<li data-taret="#Carousel" data-slide-to="2">
-				</li>
-				<li data-taret="#Carousel" data-slide-to="3">
-				</li>
-				<li data-taret="#Carousel" data-slide-to="4">
-				</li>
-			</ol>
-			<!-- 轮播区 -->
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="" class="img-responsive center-block" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="" class="img-responsive center-block" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="" class="img-responsive center-block" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="" class="img-responsive center-block" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="" class="img-responsive center-block" alt="">
+
+			<!-- 导航 -->
+			<div class="align-items-center" style="position:relative">
+				<div class="col-7 middle nav-justified justify-content-center">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="nav-link active">首页</a>
+							<div class="nav-line col-12">
+								<div class="nav-line-color middle"></div>
+							</div>
+						</li>
+						<li class="nav-item"><a href="" class="nav-link">展览</a></li>
+						<li class="nav-item"><a href="" class="nav-link">商店</a></li>
+						<li class="nav-item"><a href="" class="nav-link">版权申请</a></li>
+						<li class="nav-item"><a href="" class="nav-link">关于我们</a></li>
+						<button type="button" class="btn btn-outline-secondary btn-lg" id="Login">登陆 / 注册</button>
+					</ul>
+					
 				</div>
 			</div>
-			<!-- 导航控制 -->
-			<a class="carousel-control-prev" href="#Carousel" data-slide="prev">
-			<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#Carousel" data-slide="next">
-			<span class="carousel-control-next-icon"></span>
-			</a>
-		</div>
-		<div class="col-12">
-			<img class="" src="" alt="气泡">
-			<p><img src="" alt="旗子">一周作品榜</p>
-		</div><!-- 作品榜横幅 -->
-		</header>
-		<content class="col-12 middle" style="background-color:darkred;"><!-- 内容 -->
-			<div class="col-10 middle " style="">
-			<div class="card-columns scroller-status" style="">
-				<div class="card post" style="">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title0</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul>
-					</div>
+
+			<!-- 活动介绍区 -->
+			<div class="design1" style="background:url(img/bg_up.png)">
+				<div style="height:3rem"></div>
+				<div class="cover1">
+					<!-- 活动状态 -->
+					<div>
+						<p class="fonttype6">coming soon ...</p>
+						<img src="img/snow.png" alt="雪花">
+					</div>			
+
+					<!-- 活动名称 -->
+					<div>
+						<p class="fonttype7">仓谷画社作品联展</p>
+						<p class="fonttype8">the creation of Cang Gu Painting Society</p>
+					</div>					
 				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title1</h5>
-						<p class="card-text">text</p>
+
+				<!-- 活动具体内容轮播区 -->
+				<div id="Carousel" class="col-11 carousel slide middle" data-ride="carousel">
+					<!-- 计数器 -->
+					<ol class="carousel-indicators ">
+						<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#Carousel" data-slide-to="1" class=""></li>
+						<li data-target="#Carousel" data-slide-to="2" class=""></li>
+						<li data-target="#Carousel" data-slide-to="3" class=""></li>
+					</ol>
+					<!-- 轮播项容器 -->		<!-- class="img-responsive center-block" 	 -->		
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/img0.png" alt="img0"/>
+						</div>
+						<div class="carousel-item" >
+							<img src="img/img1.png" alt="img1"/>
+						</div>
+						<div class="carousel-item">
+							<img src="img/img2.png" alt="img2"/>
+						</div>
+						<div class="carousel-item">
+							<img src="img/img3.png" alt="img3"/>
+						</div>
+					</div>					
+					<!-- 导航控制 -->	
+					<a class="carousel-control-prev look" href="#Carousel" data-slide="prev" style="background:url(img/prev.png)"></a>
+					<a class="carousel-control-next look" href="#Carousel" data-slide="next" style="background:url(img/next.png)"></a>
+
+					<!-- 活动具体信息 -->
+					<div class="cover2">
+						<p class="fonttype4">2018.10.1-2018.10.7</p> 
+						<p class="fonttype5">每天9:30AM-5:00PM<br/>江南大学设计学院<br/>1F 展览馆</p>
 					</div>
-					<div class="card-footer">
-						<ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul>
+				</div>				
+			</div>
+
+			<!-- 作品榜标题 -->
+			<div>
+				<div class="design2">
+					<img src="img/brain.png" alt="气泡">
+					<div class="cover3">	
+						<img src="img/flag.png" alt="旗子"  >
 					</div>
+					<div style="height:2rem"></div>
+					<p class="fonttype3">一周作品榜</p>					
 				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title2</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title3</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted"><ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul></small>
-					</div>
-				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title2</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted"><ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul></small>
-					</div>
-				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title2</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted"><ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul></small>
-					</div>
-				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title2</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted"><ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul></small>
-					</div>
-				</div>
-				<div class="card post">
-					<img class="card-img-top" src="" alt="card img">
-					<div class="card-body">
-						<h5 class="card-title">title2</h5>
-						<p class="card-text">text</p>
-					</div>
-					<div class="card-footer">
-						<small class="text-muted"><ul>
-							<li><a href=""><img src="">点赞</a></li>
-							<li><a href=""><img src="">评论</a></li>
-						</ul></small>
-					</div>
-				</div>
-				<!--  <p class="infinite-scroll-last">End of content</p>
-				 <p class="infinite-scroll-error">No more pages to load</p> -->
 			</div>	
-			<p class="pagination">
-				<a class="pagination_next" href="page2.html">查看更多</a>
-			</p>
+		</header>
+
+        <div style="height:7rem"></div>
+
+		<!-- 作品榜内容 -->
+		<content class="middle " style="background:url(img/bg_down.png);position:relative">
+			<div class="num_pos n1">1</div>
+			<div class="num_pos n2">2</div>	
+			<div class="num_pos n3">3</div>	
+			<div class="num_pos n4">4</div>	
+			<div class="num_pos n5">5</div>	
+			<div class="col-11 middle" style="padding-top: 10rem">
+				<div class="card-columns scroller-status" style="">			
+					<!-- 一号画 -->
+					<div class="card post" style="">
+
+						<img class="card-img-top" src="img/show_1.png" alt="card img">
+						<div class="card-body">
+							<p class="card-title middle">《炼之一》</p>
+							<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+						</div>
+						<div class="card-footer">
+							<div class="if_look in">
+								<input type="button" class="in btnstyle size1" style="background-image: url(img/unlook.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_like in">
+								<input type="button" class="in btnstyle size2" style="background-image: url(img/unlike.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_pick in">
+								<input type="button" class="btnstyle size2" style="background-image: url(img/unpick.png)" onclick=""/>
+							</div>
+						</div>
+					</div>
+					<!-- 二号画 -->
+					<div class="card post" style="">
+						<img class="card-img-top" src="img/show_2.png" alt="card img">
+						<div class="card-body">
+							<p class="card-title middle">《自由之路》</p>
+							<p class="card-type middle">插画</p>
+							<p class="card-author middle">欧梦婷</p>
+						</div>
+						<div class="card-footer">
+							<div class="if_look in">
+								<input type="button" class="in btnstyle size1" style="background-image: url(img/unlook.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_like in">
+								<input type="button" class="in btnstyle size2" style="background-image: url(img/unlike.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_pick in">
+								<input type="button" class="btnstyle size2" style="background-image: url(img/unpick.png)" onclick=""/>
+							</div>
+						</div>
+					</div>
+					<!-- 三号画 -->
+					<div class="card post" style="">
+						<img class="card-img-top" src="img/show_3.png" alt="card img">
+						<div class="card-body">
+							<p class="card-title middle">《四月》</p>
+							<p class="card-type middle">插画</p>
+							<p class="card-author middle">肖亦云</p>
+						</div>
+						<div class="card-footer">
+							<div class="if_look in">
+								<input type="button" class="in btnstyle size1" style="background-image: url(img/unlook.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_like in">
+								<input type="button" class="in btnstyle size2" style="background-image: url(img/unlike.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_pick in">
+								<input type="button" class="btnstyle size2" style="background-image: url(img/unpick.png)" onclick=""/>
+							</div>
+						</div>
+					</div>
+					<!-- 四号画 -->
+					<div class="card post" style="">
+						<img class="card-img-top" src="img/show_4.png" alt="card img">
+						<div class="card-body">
+							<p class="card-title middle">《金鱼与木鱼NO.1》</p>
+							<p class="card-type middle">画作</p>
+							<p class="card-author middle">邓展鹏</p>
+						</div>
+						<div class="card-footer">
+							<div class="if_look in">
+								<input type="button" class="in btnstyle size1" style="background-image: url(img/unlook.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_like in">
+								<input type="button" class="in btnstyle size2" style="background-image: url(img/unlike.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_pick in">
+								<input type="button" class="btnstyle size2" style="background-image: url(img/unpick.png)" onclick=""/>
+							</div>
+						</div>
+					</div>
+					<!-- 五号画 -->
+					<div class="card post" style="">
+						<img class="card-img-top" src="img/show_5.png" alt="card img">
+						<div class="card-body">
+							<p class="card-title middle">《img0462》</p>
+							<p class="card-type middle">插画</p>
+							<p class="card-author middle">逗号</p>
+						</div>
+						<div class="card-footer">
+							<div class="if_look in">
+								<input type="button" class="in btnstyle size1" style="background-image: url(img/unlook.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_like in">
+								<input type="button" class="in btnstyle size2" style="background-image: url(img/unlike.png)" onclick=""/>
+								<p class="in fontposition">100</p>
+							</div>
+							<div class="if_pick in">
+								<input type="button" class="btnstyle size2" style="background-image: url(img/unpick.png)" onclick=""/>
+							</div>
+						</div>
+					</div>
+
+					<div class="middle" style="padding-top:4em">
+						<button type="button" class="btnmore">查看更多</button>
+					</div>
+				</div>	
+			</div>
+			<!--右下角logo-->
+			<footer>
+				<div class="logo logopos">
+					<img src="img/logo.png" alt="logo">
+				</div>
+			</footer>			
 		</content>
-</div>
-<footer class="col-12" style="background-color:darkgreen">
-		<div class="logo">
-			<img class="col-1 col-md-offset-11" src="" alt="logo">
-		</div>
-		</footer>
-</div>
-</content>
+	</div>
 <script type="text/javascript" src="js/scrollpost.js"></script>
 </body>
