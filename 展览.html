@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>青狮网</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/YleoStyle.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script  src ="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+</head>
+<body class="" id="product">
+<div class="container-fluid align-middle" style="background-color:lightgreen">
+	<div class="sidebar" style=""><!-- 侧边 -->
+		<ul class="" style="">
+			<li style="">Yleon team presented.</li>
+			<li style="">Home of young artists and designers.</li>
+			<li style="">Best of works</li>
+		</ul>
+	</div>
+	<div class =" align-items-start">
+	
+	<div class="col-12" style="background-color: lightyellow">
+		<header class="justify-content-center text-center " style="background-color:white">
+			
+			<!-- logo及标语 -->
+			<div class="col-12">
+				<div style="height:3.5rem"></div>
+				<!-- logo图标 -->
+				<div class="logo"><img src="img/logo.png" alt="logo_yleo"/></div>
+				<div style="height:2rem"></div>
+				<!-- 标语 -->
+				<div>
+					<p class="fonttype1">年轻人的线上艺术生活馆</p>
+					<p class="fonttype2">Young artists&designers around you.</p>
+			    </div>
+			    <div style="height:2rem"></div>
+			</div>
+
+			<!-- 导航 -->
+			<div class="align-items-center" style="position:relative">
+				<div class="col-7 middle nav-justified justify-content-center">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="nav-link ">首页</a>
+							
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link active">展览</a>
+							<div class="nav-line col-12">
+								<div class="nav-line-color middle"></div>
+							</div></li>
+						<li class="nav-item"><a href="" class="nav-link">商店</a></li>
+						<li class="nav-item"><a href="" class="nav-link">版权申请</a></li>
+						<li class="nav-item"><a href="" class="nav-link">关于我们</a></li>
+						<button type="button" class="btn btn-outline-secondary btn-lg" id="Login">登陆 / 注册</button>
+					</ul>
+					
+				</div>
+			</div>
+		</header>
+		<content class="col-12 middle align-items-center" style="background-color:darkred;position: relative;"><!-- 内容 -->
+			<ul class="col-4 middle nav nav-justified justify-content-center"><li class="switch1"><label>展览推荐</label></li><img src="" alt="*"><li class="switch2"><label>全部作品</label></li></ul>
+			<!-- 展览推荐 -->
+			<div id="proh-recommend"  class="col-8" style="transform:translate(25%,10%);visibility: visible;position: absolute;">	
+				<section class="post row jumbotron" style="background-color: pink">
+					<div class="col-6 carousel slide middle" data-ride="carousel"><!-- 轮播区 -->
+			<!-- 计数器 -->
+			<ol class="carousel-indicators">
+				<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+				<li data-taret="#Carousel" data-slide-to="1">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="2">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="3">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="4">
+				</li>
+			</ol>
+			<!-- 轮播区 -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+			</div>
+			<!-- 导航控制 -->
+			<a class="carousel-control-prev" href="#Carousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#Carousel" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+					<div class="col-6 ">
+						<div class="row head"><h2>仓谷画社作品联展</h2></div>
+						<div class="row abstract"><h4>青狮团队和仓谷画社联合作品展览开始啦！快来抢先看吧</h4></div>
+						<div class="row info"><img src=""><span>2018.10.1</span><span>青狮团队合发</span><span><a href=""><img src=""></a></span></div>
+					</div>
+				</section>
+				<section class="post row jumbotron" style="background-color: pink">
+					<div class="col-6 carousel slide middle" data-ride="carousel"><!-- 轮播区 -->
+			<!-- 计数器 -->
+			<ol class="carousel-indicators">
+				<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+				<li data-taret="#Carousel" data-slide-to="1">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="2">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="3">
+				</li>
+				<li data-taret="#Carousel" data-slide-to="4">
+				</li>
+			</ol>
+			<!-- 轮播区 -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="" class="img-responsive center-block" alt="">
+				</div>
+			</div>
+			<!-- 导航控制 -->
+			<a class="carousel-control-prev" href="#Carousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#Carousel" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+					<div class="col-6 ">
+						<div class="row head"><h2>仓谷画社作品联展</h2></div>
+						<div class="row abstract"><h4>青狮团队和仓谷画社联合作品展览开始啦！快来抢先看吧</h4></div>
+						<div class="row info"><img src=""><span>2018.10.1</span><span>青狮团队合发</span><span><a href=""><img src=""></a></span></div>
+					</div>
+				</section>
+			</div>
+			<!-- 全部作品 -->
+			<div id="all-product" class=" col-10 middle" style="visibility: hidden;">
+				<div class="row" style="display: block;margin-bottom: 20px">
+						
+						<div class="btn-group">
+							<button class="btn btn-secondary dropdown-toggle btn-list"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="time" style="color:rgb(16,180,255)"><span style="font-size:0.9rem">筛选  | 作品类别 </span></button>
+							<div class="dropdown-menu">
+								<button class="dropdown-item" href="#" value="">陶瓷</button>
+								<button class="dropdown-item" href="#" value="">插画</button>
+								<button class="dropdown-item" href="#" value="">版画</button>
+							</div>
+						</div>
+						<div class="btn-group">
+							<button class="btn btn-secondary dropdown-toggle btn-list"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="time" style="color:rgb(16,180,255)">时间</button>
+							<div class="dropdown-menu">
+								<button class="dropdown-item" href="#" value="week">近一周</button>
+								<button class="dropdown-item" href="#" value="month">近一月</button>
+								<button class="dropdown-item" href="#" value="year">近一年</button>
+							</div>
+						</div>
+						<div class="btn-group">
+							<button class="btn btn-secondary dropdown-toggle btn-list"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="heat" style="color:rgb(255,122,165)">热度</button>
+							<div class="dropdown-menu">
+								<button class="dropdown-item" href="#" value="week">近一周</button>
+								<button class="dropdown-item" href="#" value="month">近一月</button>
+								<button class="dropdown-item" href="#" value="year">近一年</button>
+							</div>
+						</div>
+						<div class="btn-group" style="float: right">
+							<input type="text" class="form-control" placeholder="来这里搜索作品吧"  aria-describedby="button-addon2">
+							<div class="input-group-append">
+								<button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="" alt="search"></button>
+							</div>
+						</div>
+					</div>
+				<div class="card-group content-center" style="clear: both;"><!-- group铺满 -->			
+						
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/spxq_other1.png" alt="1"></div>
+								<div class="card-text3">《相依》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+					
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/spxq_other2.png" alt="1"></div>
+								<div class="card-text3">《目光20171202》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/spxq_other3.png" alt="1"></div>
+								<div class="card-text3">《猫头鹰01》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/spxq_other4.png" alt="1"></div>
+								<div class="card-text3">《幻01》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>		
+					</div>
+					<div class="card-group content-center" style="clear: both;"><!-- group铺满 -->			
+						
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_2_1.png" alt="1"></div>
+								<div class="card-text3">《幻02》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+					
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_2_2.png" alt="1"></div>
+								<div class="card-text3">《幻03》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_2_3.png" alt="1"></div>
+								<div class="card-text3">《困01》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_2_4.png" alt="1"></div>
+								<div class="card-text3">《困02》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>		
+					</div>
+					<div class="card-group content-center" style="clear: both;"><!-- group铺满 -->			
+ 						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_3_1.png" alt="1"></div>
+								<div class="card-text3">《困03》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+						<div class="card card4">
+							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_3_2.png" alt="1"></div>
+								<div class="card-text3">《困04》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+ 						<div class="card card4">
+ 							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_3_3.png" alt="1"></div>
+								<div class="card-text3">《困10》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+
+ 						<div class="card card4">
+ 							<div class="card-body4">
+								<div class="card-img-top-s" ><img src="img/grzy_3_4.png" alt="1"></div>
+								<div class="card-text3">《困11》</div>
+								<p class="card-type middle">陶瓷</p>
+							<p class="card-author middle">刘亮亮</p>
+							</div>
+							<div class="card-footer foot4">
+								<div class="in float-left"><button class="btn1 size1" style="background-image: url(img/grey_unlook.png)"></button>100</div>
+								<div class="in "><button class="btn1 size2" style="background-image: url(img/grey_unlike.png)"></button>100</div>
+								<div class="in float-right"><button class="btn1 size2" style="background-image: url(img/unpick.png)"></button></div>
+							</div>
+						</div>
+					</div>
+		</content>
+</div><footer class="col-12" style="background-color:darkgreen;height: 150px;">
+		
+		</footer>
+</div>
+</content>
+
+<script type="text/javascript" src="js/scrollpost.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".switch1").click(function(){
+				$("#proh-recommend").css({"visibility":"visible"});
+				$("#all-product").css({"visibility":"hidden"});
+		});
+		$(".switch2").click(function(){
+				$("#proh-recommend").css({"visibility":"hidden"});
+				$("#all-product").css({"visibility":"visible"});
+		});
+		// $(".switch1").click(function(){
+		// 		$("#proh-recommend").css({"display":"true"});
+		// 		$("#all-product").css({"display":"none"});
+		// });
+		// $(".switch2").click(function(){
+		// 		$("#proh-recommend").css({"display":"none"});
+		// 		$("#all-product").css({"display":"true"});
+	});
+</script>
+</body>
