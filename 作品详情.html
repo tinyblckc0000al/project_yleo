@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>青狮网</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/YleoStyle.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/sinaFaceAndEffec.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"  ></script><!-- integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous" -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script  src ="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+</head>
+<body >
+
+<div class="container-fluid align-middle" style="background-color:white">
+	<div class ="col-12 align-items-start bgstyle" style="background:url(img/spxq_bg.png)">	
+		<div class="" >
+			<div style="height:2.5rem"></div>
+			<!-- 导航栏 -->
+			<header class="col-12 nav">
+				<!-- logo图标 -->
+				<div class="col-2 logo" id="Logo">
+					<img src="img/logo.png" alt="logo_yleo"/>
+				</div>
+
+				<!-- 导航 -->
+				<div class=" col-8">
+					<div style="height:1.5rem"></div>
+					<ul class="col-11 middle nav nav-justified " >
+						<li class="nav-item"><a class="nav-link active" href="">首页</a></li>
+						<li class="nav-item"><a class="nav-link" href="">展览</a></li>
+						<li class="nav-item"><a class="nav-link" href="">商店</a></li>
+						<li class="nav-item"><a class="nav-link" href="">版权申请</a></li>
+						<li class="nav-item"><a class="nav-link" href="">关于我们</a></li>
+						<button type="button" class="btn btn-outline-secondary btn-lg" id="Login">登陆 / 注册</button>
+					</ul>
+				</div>
+			</header>
+
+			<!-- 内容 -->
+			<content class="col-12">
+				
+				<div style="height:1rem"></div>
+				<!-- 轮播区 -->
+				<div id="Carousel" class="col-11 carousel slide middle" data-ride="carousel">
+					<!-- 轮播项容器 -->		<!-- class="img-responsive center-block" 	 -->		
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div><img src="img/img0.png" alt="img0"/></div>
+
+							<div class="middle">
+								<div class="in" style="margin-left: 400px;margin-right: 300px">炼之一</div>
+								<div class="in"><button class="btn1 size1" style="background-image: url(img/light_unlook.png)"></button>100</div>
+										<div class="in"><button class="btn1 size2" style="background-image: url(img/light_unlike.png)"></button>100</div>
+								</div>
+								<div class="middle" style="">陶瓷</div>
+								
+
+						</div>
+						<div class="carousel-item" >
+							<div><img src="img/img1.png" alt="img1"/></div>
+							<div class="middle">
+								<div class="in" style="margin-left: 400px;margin-right: 300px">炼之一</div>
+								<div class="in"><button class="btn1 size1" style="background-image: url(img/light_unlook.png)"></button>100</div>
+										<div class="in"><button class="btn1 size2" style="background-image: url(img/light_unlike.png)"></button>100</div>
+								</div>
+								<div class="middle" style="">陶瓷</div>
+								
+						</div>
+						<div class="carousel-item">
+							<div><img src="img/img2.png" alt="img1"/></div>
+							<div class="middle">
+								<div class="in" style="margin-left: 400px;margin-right: 300px">炼之一</div>
+								<div class="in"><button class="btn1 size1" style="background-image: url(img/light_unlook.png)"></button>100</div>
+										<div class="in"><button class="btn1 size2" style="background-image: url(img/light_unlike.png)"></button>100</div>
+								</div>
+								<div class="middle" style="">陶瓷</div>
+								
+						</div>
+						<div class="carousel-item">
+							<div><img src="img/img3.png" alt="img1"/></div>
+							<div class="middle">
+								<div class="in" style="margin-left: 400px;margin-right: 300px">炼之一</div>
+								<div class="in"><button class="btn1 size1" style="background-image: url(img/light_unlook.png)"></button>100</div>
+										<div class="in"><button class="btn1 size2" style="background-image: url(img/light_unlike.png)"></button>100</div>
+								</div>
+								<div class="middle" style="">陶瓷</div>
+								
+						</div>
+					</div>					
+					<!-- 导航控制 -->	
+					<a class="carousel-control-prev look" href="#Carousel" data-slide="prev" style="background:url(img/prev.png)"></a>
+					<a class="carousel-control-next look" href="#Carousel" data-slide="next" style="background:url(img/next.png)"></a>
+				</div>
+				<div class="middle" style=""><img src="" alt="赞"></div>	
+			</div>
+
+				<!-- 商品扩展 -->
+				<div class="col-10 middle" style="display:flex;">
+
+					<!-- 左侧 商品评论信息-->
+					<div class="col-7">
+						<div class="jumbotron" style="background-color:white">
+						<div class="row">
+							<div class="col-4">评论&nbsp&nbsp<img src="img/unread.png" alt="" style="height:1em;width:auto">(10)</div>
+								<hr class="row col-12">
+							
+							<div style="height:5rem"></div>
+							<div class="row">
+								
+
+								<!-- 第一条留言 -->
+								<div style="height:6rem"></div>
+								<div class="col-12">
+									<div class="row">
+										<div class="col-2">
+											<img src="img/spxq_headimage1.png" class="img-rounded" alt="头像">
+										</div>
+										<div class="col-10" style="position:relative;">
+											<div class="col-8">
+												<span class="who">Dream worker</span>
+												<span class="when">(2小时前)</span>
+											</div>
+											<div class="col-12 what">COOOOOOOOOOL-XDD,拿去送人了~</div>
+											<div class="hot">当前最热&nbsp<img src="img/fire.png" alt=""/></div>
+										</div>
+									</div>
+									<div class="float-right">
+										<div class="row" style="position:relative;width:10rem">
+											<div><button class="btn1 size2" style="background-image: url(img/unread.png)"></button>&nbsp&nbsp25</div>
+											<div style="position:absolute;left:5rem"><button class="btn1 size2" style="background-image: url(img/unlike.png)"></button>&nbsp&nbsp100</div>
+										</div>
+									</div>
+								</div>				
+								
+								<!-- 第二条留言 -->
+								<div style="height:10rem"></div>
+								<div class="col-12">
+									<div class="row">
+										<div class="col-2">
+											<img src="img/spxq_headimage2.png" class="img-rounded" alt="头像">
+										</div>
+										<div class="col-10">
+											<div class="col-8">
+												<span class="who">肚子很大</span>
+												<span class="when">(3小时前)</span>
+											</div>
+											<div class="col-12 what">青狮的做工非常不错啊，表扬一个。</div>
+										</div>
+									</div>
+									<div class="float-right">
+										<div class="row" style="position:relative;width:10rem">
+											<div><button class="btn1 size2" style="background-image: url(img/unread.png)"></button>&nbsp&nbsp10</div>
+											<div style="position:absolute;left:5rem"><button class="btn1 size2" style="background-image: url(img/unlike.png)"></button>&nbsp&nbsp80</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- 第三条留言 -->
+								<div style="height:10rem"></div>
+								<div class="col-12">
+									<div class="row">
+										<div class="col-2">
+											<img src="img/spxq_headimage3.png" class="img-rounded" alt="头像">
+										</div>
+										<div class="col-10">
+											<div class="col-8">
+												<span class="who">蓬莱仙阁</span>
+												<span class="when">(5小时前)</span>
+											</div>
+											<div class="col-12 what">库存不多了，看来卖得很不错啊。
+												下个系列打算多进点货。</div>
+										</div>
+									</div>
+									<div class="float-right">
+										<div class="row" style="position:relative;width:10rem">
+											<div><button class="btn1 size2" style="background-image: url(img/unread.png)"></button>&nbsp&nbsp8</div>
+											<div style="position:absolute;left:5rem"><button class="btn1 size2" style="background-image: url(img/unlike.png)"></button>&nbsp&nbsp60</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- 第四条留言 -->
+								<div style="height:10rem"></div>
+								<div class="col-12">
+									<div class="row">
+										<div class="col-2">
+											<img src="img/spxq_headimage4.png" class="img-rounded" alt="头像">
+										</div>
+										<div class="col-10">
+											<div class="col-8">
+												<span class="who">火星异种</span>
+												<span class="when">(10小时前)</span>
+											</div>
+											<div class="col-12 what">这系列的明信片很适合在节日送朋友，显得
+												我很有品味，考虑回购</div>
+										</div>
+									</div>
+									<div class="float-right">
+										<div class="row" style="position:relative;width:10rem">
+											<div><button class="btn1 size2" style="background-image: url(img/unread.png)"></button>&nbsp&nbsp4</div>
+											<div style="position:absolute;left:5rem"><button class="btn1 size2" style="background-image: url(img/unlike.png)"></button>&nbsp&nbsp35</div>
+										</div>
+									</div>
+								</div>
+
+								<div style="height:10rem"></div>
+								<div class="col-12 middle">
+									<p class="">
+										<a class="middle" href="" style="color: rgb(16,180,255);">点击展开全部评论  \/</a>
+									</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- 相关商品推荐 -->
+						<div class="row comment" style="background-color:rgb(255,214,129)">
+							<div class="col-2"><img src="" alt="粉logo"></div>
+							<div class=""><textarea class="text" placeholder="发表点评论吧:)" style="position: relative;resize: none;"></textarea></div>
+							<div class="operator-box-btn">
+					  			<span class="face-icon" style="margin-bottom: 0;margin-left:-5%;position: absolute;">☺</span>
+							</div>
+						</div>
+						<div class="middle"><button>点击发表</button></div>
+						
+					</div>
+
+					
+
+					<!-- 右侧作者介绍及相关推荐 -->
+					<!-- 作者介绍 -->
+						<div class="jumbotron" style="background-color:rgb(96,96,96)">
+							<!-- 作者个人信息 -->
+							<div class="row" style="margin:auto 1rem;">
+								<!-- 作者头像 -->
+								<div class="headimg"></div>
+								<div style="width:2.5rem"></div>
+								<!-- 文字信息部分 -->
+								<div>
+									<div style="position:relative">
+										<div style="font-size:1.1rem;color:rgb(16,180,255);">刘亮亮</div>
+										<div style="position:absolute;left:4.5rem;bottom:0.8rem"><button class="product_label" >Yleo认证</button></div>
+									</div>
+									<div style="font-size:0.7rem;color:white;line-height:2rem">
+										<span>艺术家</span>,<span>陶瓷工作者</span>
+									</div>
+									<div>
+										<span><button class="product_label" >关注作者</button></span>
+									</div>
+								</div>
+								<div class="row jumbotron">
+									<div class="col-12">
+										<p>《炼之一》</p>
+										<ul style="list-style: none;">
+											<li>尺寸：<span>28cm x 15cm</span></li>
+											<li>材质：<span>1320还原焰烧成</span></li>
+											<li>创作年代：<span>2017</span></li>
+											<li>合作价格：<span>1400元</span></li>
+										</ul>
+									</div>
+
+									<hr />
+									<div class="col-12">
+										<p>使用的软件：</p>
+											<span>无</span>
+									</div>
+									<hr>
+									<div class="col-12">
+										<p>标签:<img src=""></p>
+										<ul style="list-style: none;float:left;">
+											<li class="in"><span>陶瓷</span></li>
+											<li class="in"><span>艺术</span></li>
+											<li class="in"><span>系列作</span></li>
+											<li class="in"><span>YLEO认证作者</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-12">
+								<p>分享至</p>
+								<div class="share">
+									<a href=""><img src="img/weibo.png" alt="weibo"></a>
+									<a href=""><img src="img/weixin.png" alt="weixin"></a>
+									<a href=""><img src="img/qq.png" alt="qq"></a>
+								</div>
+							</div>
+							</div>
+							
+							<!-- 作者其他作品 -->
+							<div style="height:1rem"></div>
+
+							<div class="row" style="font-size:0.9rem;margin:0px;">
+								<div class="author-name">刘亮亮</div>
+								<div style="color:white">的其他作品</div>
+							</div>
+
+							<div class="card-deck" style="margin:auto 1rem;">
+
+								<div class="card card1">
+										<div class="card-img-top-s" >
+											<img src="img/spxq_other1.png" alt="1">
+										</div>
+								</div>
+
+								<div class="card card1">
+										<div class="card-img-top-s" ><img src="img/spxq_other2.png" alt="1"></div>
+								</div>
+
+								<div class="card card1">
+									
+										<div class="card-img-top-s" ><img src="img/spxq_other3.png" alt="1"></div>
+								</div>
+
+								<div class="card card1">
+									
+										<div class="card-img-top-s" ><img src="img/spxq_other4.png" alt="1"></div>
+									
+								</div>
+							</div>
+
+							<div style="height:1.5rem"></div>
+
+							<div><a class="float-right" href="" style="color:rgb(16,180,255);font-size:0.9rem">更多 ></a></div>
+							<div style="height:1.5rem"></div>
+						</div>
+
+						
+
+					
+				</div>
+			</content>
+		</div>
+
+		<footer class="col-12" style="background-color:darkgreen">
+		</footer>
+	</div>
+</div>
+<script type="text/javascript" src="js/sinaFaceAndEffec.js"></script>
+<script type="text/javascript" src="js/scrollpost.js"></script>
+<script type="text/javascript">
+	// 调用新浪接口
+	$('.face-icon').SinaEmotion($('.text'));
+</script>
+</body>
