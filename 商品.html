@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>青狮网</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/YleoStyle.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script  src ="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+</head>
+
+<body class="" id="product">
+<div class="container-fluid align-middle" style="background-color:white">
+	<!-- 侧边 -->
+	<div class="sidebar" style="">
+		<ul class="" style="">
+			<li style="">Yleon team presented.</li>
+		</ul>
+	</div>
+
+	<div class =" align-items-start">
+		<div class="col-12">
+			<header class="justify-content-center text-center ">
+				<!-- logo及标语 -->
+				<div class="col-12">
+					<div style="height:3.5rem"></div>
+					<!-- logo图标 -->
+					<div class="logo"><img src="img/logo.png" alt="logo_yleo"/></div>
+					<div style="height:2rem"></div>
+					<!-- 标语 -->
+					<div>
+						<p class="fonttype1">年轻人的线上艺术生活馆</p>
+						<p class="fonttype2">Young artists&designers around you.</p>
+				    </div>
+				    <div style="height:2rem"></div>
+				</div>
+
+				<!-- 导航 -->
+				<div class="align-items-center" style="position:relative">
+					<div class="col-7 middle nav-justified justify-content-center">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="" class="nav-link ">首页</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link ">展览</a>
+								<div class="nav-line col-12">
+									<div class="nav-line-color middle"></div>
+								</div>
+							</li>
+							<li class="nav-item"><a href="" class="nav-link active">商店</a></li>
+							<li class="nav-item"><a href="" class="nav-link">版权申请</a></li>
+							<li class="nav-item"><a href="" class="nav-link">关于我们</a></li>
+							<button class="btn btn-outline-secondary btn-lg" id="Login">登陆 / 注册</button>
+						</ul>
+					</div>
+				</div>
+
+				<div style="height:3rem"></div>
+			</header>
+			<content class="col-12 middle align-items-center" style="position: relative;background:url(img/bg_up.png)">
+				<div style="height:2rem"></div>
+				<div class="col-11">
+					<div class=" btn-group search-box" style="float: right">
+						<div class="in" style="width:2rem"></div>
+						<input type="text" class="form-control trans" placeholder="来这里搜索作品吧"  aria-describedby="button-addon2">
+						<div class="in" style="width:2rem"></div>
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary trans" id="button-addon2"><img src="img/search.png" alt="search" style="height:1rem;width:auto"></button>
+						</div>
+					</div>
+				</div>
+				<div style="height:8rem"></div>
+				<!-- 内容 -->
+				<div class="row" style="position:relative">
+					<ul class="middle nav nav-justified justify-content-center" style="font-size:3rem;color:gray">
+						<li class="switch1">
+							<label>青狮|出品&nbsp&nbsp&nbsp</label>
+						</li>
+						<img src="img/snow.png" alt="*" style="height:3.5rem;width:auto;margin:auto">
+						<li class="switch2">
+							<label>&nbsp&nbsp&nbsp青狮|代理</label>
+						</li>
+					</ul>
+					<div class="col-11 in" style="position:absolute;top:30%">
+						<button class="btn btn-outline-secondary float-right btn_shop" style="background-image: url(img/shopcar.png)"></button>
+					</div>
+				</div>
+				<div style="height:2rem"></div>
+
+				<!-- 出品 -->
+				<div id="proh-recommend"  class="col-9" style="transform:translate(15%,0%);visibility: visible;position: absolute;">
+					<div class="btn-group">
+						<button class="btn  dropdown-toggle btn-list btn_shaixuan"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="time">
+							<span style="margin:auto !important">筛选  | 综合排序 </span>
+						</button>
+						<div class="dropdown-menu">
+							<button class="dropdown-item" href="#" value="">人气</button>
+							<button class="dropdown-item" href="#" value="">时间</button>
+							<button class="dropdown-item" href="#" value="">价格</button>
+						</div>
+					</div>
+					<div style="height:2rem"></div>
+					<div class="card-deck" >
+						<!-- 一号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/puke.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号个人本1</p>
+								<p class="card-text2" style="font-size:2rem">¥50</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 二号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian3.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 纹身贴</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 三号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian2.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 文件夹</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 四号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian1.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 明信片</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 代理 -->
+				<div id="all-product" class="col-9 middle" style="visibility: hidden;"><!-- 不知道该放啥，就放了一样的 -->
+					<div class="btn-group">
+						<button class="btn  dropdown-toggle btn-list btn_shaixuan"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="time">
+							<span style="margin:auto !important">筛选  | 综合排序 </span>
+						</button>
+						<div class="dropdown-menu">
+							<button class="dropdown-item" href="#" value="">人气</button>
+							<button class="dropdown-item" href="#" value="">时间</button>
+							<button class="dropdown-item" href="#" value="">价格</button>
+						</div>
+					</div>
+					<div style="height:2rem"></div>
+					<div class="card-deck" >
+						<!-- 一号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/puke.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号个人本1</p>
+								<p class="card-text2" style="font-size:2rem">¥50</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 二号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian1.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 纹身贴</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 三号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian2.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 文件夹</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+						<!-- 四号画 -->
+						<div class="card card5">
+							<div class="card-body2">
+								<div class="card-img-top-s5">
+									<button class="btn-new1">NEW</button>
+									<div class="card-img-top-s" >
+										<img src="img/spxq_tuijian3.png" alt="1">
+									</div>
+								</div>
+								<p class="card-text1" style="font-size:1rem">逗号 · 明信片</p>
+								<p class="card-text2" style="font-size:2rem">¥20</p>
+								<div style="height:1rem"></div>
+							</div>
+							<div class="card-footer foot5">
+								<div class="in">江苏 无锡</div>
+								<div class="in float-right">
+									<button class="btn2 size2" style="background-image: url(img/unpick.png)"></button>
+									<button class="btn2 size2" style="background-image: url(img/shopcar.png)"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div style="height:10rem"></div>
+				<footer>
+					<div class="float-right">
+						加入我们？&nbsp&nbsp&nbsp<a href=""><img style="height:2.5rem;width:auto" src="img/next.png" alt="》"></a>
+						<div style="height:5rem"></div>
+					</div>
+				</footer>
+			</content>	
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/scrollpost.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$(".switch1").click(function()
+			{
+				$("#proh-recommend").css({"visibility":"visible"});
+				$("#all-product").css({"visibility":"hidden"});
+			}
+			);
+
+			$(".switch2").click(function()
+			{
+					$("#proh-recommend").css({"visibility":"hidden"});
+					$("#all-product").css({"visibility":"visible"});				
+			}
+			);
+			// $(".switch1").click(function(){
+			// 		$("#proh-recommend").css({"display":"true"});
+			// 		$("#all-product").css({"display":"none"});
+			// });
+			// $(".switch2").click(function(){
+			// 		$("#proh-recommend").css({"display":"none"});
+			// 		$("#all-product").css({"display":"true"});
+		});
+	</script>
+</body>
