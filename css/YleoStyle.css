@@ -1,12 +1,24 @@
 html{
 	height: 100%;
 	margin-bottom: 0 !important;
+
 }
 body{
 	height: 100%;
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+}
+/*去掉点击蓝色边框*/
+input,button{
+	outline: none !important;
+}
+/*点击变手*/
+a,label,button{
+	cursor: pointer;
+}
+input{
+	overflow-wrap: break-word;
 }
 /*登陆/注册按钮*/
 #Login{
@@ -48,7 +60,7 @@ body{
 	/*模块间距*/
     .card-columns {
         column-count: 2 !important;
-        column-gap: 5em!important;
+        column-gap: 5em !important;
     }
 	/*模块样式*/
     .post{
@@ -98,6 +110,7 @@ body{
     }
     /*浏览点赞收藏按钮格式*/
     .btnstyle{
+    	cursor: pointer;
     	height:2em !important;
     	width: 2.5em !important; 
     	border-style: none;
@@ -112,6 +125,9 @@ body{
     /*点赞/收藏按钮背景图片格式*/
     .size2{
     	background-size:  auto 100% !important;
+    }
+    .if_like{
+
     }
     /*收藏按钮布局*/
     .if_pick{
@@ -169,7 +185,7 @@ body{
 }
 .n4{
 	margin: auto;
-	right: -0.5em;
+	right: -0.1em;
 	top: 5em;
 	bottom: 0;
 }
@@ -1034,3 +1050,17 @@ footer .logo{
 	letter-spacing: 1px;
 	width: 4rem;
 }
+
+.liked {
+    	filter:invert(65%) sepia(89%) saturate(2229%) hue-rotate(303deg) brightness(109%) contrast(104%);
+    	border-style: none;
+}
+/*.colorful {
+    display: inline-block;
+    width: 32px; height: 32px;
+    background-color: #f4615c;
+    -webkit-mask: url(img/) no-repeat;
+    mask: url(./) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}*/
